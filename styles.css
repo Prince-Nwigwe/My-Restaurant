@@ -1,0 +1,148 @@
+.her:hover{
+    background-color: whitesmoke;
+    color:  rgb(138, 10, 10);
+}
+nav{
+    padding: 0;
+    background-color: rgb(138, 10, 10);
+    display: flex;
+    justify-content: space-around;
+    gap: 200px; 
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+a:hover{
+    font-size: 25.5px;
+    color: black;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+table{
+    color: black;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    border: ridge;
+    margin-top: 90px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgb(170, 135, 135);
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+      
+footer{
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+    color: black;
+}
+#er{
+    background-color: rgb(138, 10, 10);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dd{
+    border: solid;
+    border-color: rgb(138, 10, 10);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.picx{
+    border: dashed;
+    border-color: rgb(138, 10, 10);
+    border-radius: 15px;
+}
+@keyframes example{
+    0% {background-image: url(./price.jpg); left: 0px; top: 0px;}
+    25% {background-color: lightpink; left: 40px; top: 0px;}
+    50% {background-color: gold; left: 0px; top: 40px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+.tt{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    animation: example 4s infinite alternate-reverse;
+    margin-left: 400px;
+}
+th{
+    font-size: x-large;
+}
+td{
+    font-style: italic;
+}
+button{
+    background-color: rgb(138, 10, 10);
+    margin-right: 20px;
+    margin-left: 610px;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.er{
+    font-style: italic;
+    font-size: larger;
+}
+@keyframes tap{
+    from{background-image: url(./prince.jpg);}
+    to{background-image: url(./price.jpg);}
+}
+#wap{
+    width: 526px;
+    height: 350px;
+    animation-name: tap;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 400px;
+    border: groove;
+    border-radius: 25px;
+    border-color: rgb(138, 10, 10);
+    border-width: thick;
+}
+@keyframes time{
+    0%{background-color: rgb(138, 10, 10);}
+    25%{background-color: whitesmoke;}
+    50%{background-color: rgb(170, 135, 135);}
+    100%{background-color: yellow;}
+}
+#time{
+    animation-name: time;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: 0s;
+    animation-delay: 0s;
+}
+form{
+    text-align: center;
+    border: ridge;
+    background-color: thistle;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+}
+#west{
+    padding: 5px;
+    font-size: larger;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+#west:hover{
+    color: rgb(138, 10, 10);
+}
